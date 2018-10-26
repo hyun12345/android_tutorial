@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/menu_home"
+        android:title="Home"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu2"
+        android:icon="@drawable/menu_star"
+        android:title="이체"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu3"
+        android:icon="@drawable/menu_product"
+        android:title="금융상품"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu4"
+        android:icon="@drawable/menu_call"
+        android:title="고객센터"
+        app:showAsAction="ifRoom"/>
+
+</menu>
